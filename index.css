@@ -1,6 +1,3 @@
-body {
-    background-color: coral;
-}
 .con {
     width: auto;
     padding: 0px;
@@ -11,7 +8,6 @@ body {
     width: 500px;
     height: 600px;
     margin: 0px auto;
-    background-color: azure;
 }
 .row h1 {
     text-align: center;
@@ -20,6 +16,10 @@ body {
 .menu {
     margin: 0px auto;
     width: 400px;
+}
+.menu p {
+    text-align: center;
+    opacity: 50%;
 }
 .menu input{
     padding: 10px;
@@ -33,11 +33,13 @@ body {
     outline: none;
 }
 .menu-group {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 .menu-buttons button{
-    padding: 25px;
-    margin: 5px;
+    text-align: center;
+    width: 71px;
+    height: 50px;
+    margin: 2px;
     font-size: 20px;
 }
