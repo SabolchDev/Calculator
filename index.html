@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="con">
+        <div class="row">
+            <H1>Calculator</H1>
+            <div class="menu">
+                <input type="text" id="input" placeholder="Please type here:" disabled>
+                <div class="menu-group">
+                    <div class="menu-buttons">
+                        <button onclick="calOne()">1</button>
+                        <button onclick="calTwo()">2</button>
+                        <button onclick="calThr()">3</button>
+                        <button onclick="calPlus()">+</button>
+                        <button onclick="calCle()">C</button>
+                    </div>
+                    <div class="menu-buttons">
+                        <button onclick="calFor()">4</button>
+                        <button onclick="calFiv()">5</button>
+                        <button onclick="calSix()">6</button>
+                        <button onclick="calNeg()">-</button>
+                        <button onclick="calPer()">/</button>
+                    </div>
+                    <div class="menu-buttons">
+                        <button onclick="calSev()">7</button>
+                        <button onclick="calEig()">8</button>
+                        <button onclick="calNin()">9</button>
+                        <button onclick="calSzo()">*</button>
+                        <button onclick="calEqual()">=</button>
+                    </div>
+                    <div class="menu-buttons">
+                        <button onclick="calZer()">0</button>
+                        <button onclick="calDel()"><-</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
